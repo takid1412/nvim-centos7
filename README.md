@@ -7,12 +7,12 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 Simple
 
 ```bash
-curl -fsSL https://example.com/script.sh | bash
+curl -fsSL https://raw.githubusercontent.com/takid1412/nvim-centos7/refs/heads/main/clean_install.sh | bash
 ```
 
 
 or with custom home path
 
 ```bash
-curl -fsSL https://example.com/script.sh | bash -s -- --home ~ # specify home dir
+curl -fsSL https://raw.githubusercontent.com/takid1412/nvim-centos7/refs/heads/main/clean_install.sh | bash -s -- --home ~ # specify home dir
 ```
